@@ -39,7 +39,7 @@ VALIDATE $? "Unzip backend code"
 npm install &>>$LOG_FILE
 VALIDATE $? "Downloading noejs dependencies"
 
-cp /home/ec2-user/expense-shell/backend.service /etc/systemd/system/backend.service &>>$LOG_FILE
+cp /home/ec2-user/expense-shell-1/backend.service /etc/systemd/system/backend.service &>>$LOG_FILE
 VALIDATE $? "copied backend.service to /etc/systemd/system"
 
 systemctl daemon-reload &>>$LOG_FILE
