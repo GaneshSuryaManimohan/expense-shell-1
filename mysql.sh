@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source common.sh
+source ./home/ec2-user/expense-shell-1/common.sh
 
 check_root()
 
